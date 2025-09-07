@@ -121,10 +121,11 @@ while True:
     print("Hidden activations (a1):", a1)
     print("Output sum (z2):", z2)
     print("Predicted satisfaction probability =", float(pred))
-    print("Prediction:", "✅ Satisfied" if pred > 0.5 else "❌ Not satisfied")
+    print("Prediction:", "Satisfied" if pred > 0.5 else "Not satisfied")
     print("-----------------------------\n")
 
     # Ask to continue
     again = input("Test another? (y/n): ")
     if again.lower() != "y":
         break
+
